@@ -10,7 +10,7 @@ public class SpiralMatrix {
         int endCol = matrix[0].length-1;
 
         //print boundaries
-        while(startRow <= endCol && startCol <= endCol) {
+        while(startRow <= endRow && startCol <= endCol) {
             for(int j=startCol; j<=endCol; j++) {
                 System.out.print(matrix[startRow][j]+" ");
             }
